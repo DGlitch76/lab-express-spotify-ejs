@@ -1,0 +1,7 @@
+.main-container-index{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/public/images/spotify-background.jpeg");
+    background-size:cover;
+    background: no-repeat ;
+}

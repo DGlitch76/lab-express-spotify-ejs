@@ -1,0 +1,25 @@
+<section class='search-results'>
+    <h1>Search Results</h1>
+    <a href='/'><button>Go Back</button></a>
+    <div class='search-results-items'>
+
+<% artistsArrayNeeded.forEach(artist => { %>
+    <div class='artist-info'>
+        <div class='artist-img'>
+          <img src='<%= artist.images %>' alt='?' />
+        </div>
+        <div class='artist-name'>
+          <%= artist.name %>
+        </div>
+        <div class='artist-info'>
+            <%= artist.name %>
+          </div>
+        <div class='artist-albums'>
+          <a href='albums/'><button>View Albums</button></a>
+        </div>
+      </div>
+ 
+<% }) %>
+
+    </div>
+  </section>
